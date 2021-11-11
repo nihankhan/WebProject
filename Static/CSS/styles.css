@@ -1,0 +1,49 @@
+body {
+	background-image:  url('/img/ccc.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+	color : red;
+	text-align : center;
+}
+
+p {
+	color : blue;
+	text-align: center;
+}
+
+table {
+	color: green;
+	border: 3px solid black;
+	border-collapse: collapse;
+	width: 50%; 
+}
+
+th, td {
+	border: 2px solid black;
+	text-align: center;
+	padding: 5px;
+}
+
+th {
+	background-color: green;
+}
+
+button {
+	width: 70px;
+	height: 30px;
+	background-color: pink;
+}
+
+button:hover {
+	background-color: orange;
+}
+
+p::selection {
+	color: red;
+	background-color: pink;
+}
