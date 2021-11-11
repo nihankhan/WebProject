@@ -1,0 +1,60 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.bg-img {
+  /* The image used */
+  background-image: url('/img/bg-img.jpg');
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  margin: 40px;
+  max-width: 350px;
+  padding: 20px;
+  background-color: lightcyan;
+}
+
+input[type=text], input[type=password], input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
