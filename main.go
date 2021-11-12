@@ -10,8 +10,8 @@ func main() {
 	http.Handle("/", http.FileServer(http.Dir("./Static/")))
 	//http.Handle("/", http.FileServer(http.Dir("/.Static")))
 
-	fmt.Println("Http File Server Running...")
+	fmt.Println("Http Server Running...")
 
-	log.Fatal(http.ListenAndServe(":5000", nil))
+	log.Fatal(http.ListenAndServe(":8004", nil))
 }
 

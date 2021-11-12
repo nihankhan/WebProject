@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Form </title>
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+	<link rel="stylesheet" href="/CSS/form.css">
+
+</head>
+
+<body>
+	<div class="bg-img">
+
+		<form action="login" method="POST" class="container">
+			<h1> Login </h1>
+			<div>
+				<input name="email" type="text" placeholder="Email" required>
+				<input name="password" type="password" placeholder="Password" required>
+			</div>
+			<br></<br>
+
+			 <button type="submit" class="btn">Login</button>
+		</form>
+	</div>>	
+
+	{{if .}}
+		{{.}}
+	{{end}}	
+</body>	
+</html>
